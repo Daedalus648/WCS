@@ -21,7 +21,11 @@
       <input id="name" name="name" type="text" placeholder="Charalampos"/>
       <button type="submit">Envoyer</button>
     </form>
-    
+    <!-- Quotation -->
+    <section class="quotation">
+      <div class="sentence">"La sagesse commence dans l'émerveillement."</div>
+      <div class="author">- Socrates</div>
+    </section>
     <!-- Member list -->
     <h2>Membres de l'équipage</h2>
     <section class="member-list">

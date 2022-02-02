@@ -10,8 +10,12 @@ class ActionController extends Controller
     public function addCrew(Request $request) {
         $crew = new Crew;
         $crew->name = $request->name;
-        $crew->save();
-        return redirect('/');
+        if (strlen($request->name) > 30){
+            echo "Erreur";
+        }else {
+            $crew->save();
+            return redirect('/');
+        }
     }
 
 }

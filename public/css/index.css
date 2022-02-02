@@ -44,6 +44,10 @@ label {
 
 .member-item {
   padding: 0.25em 0;
+  flex: 1 1 33%;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  grid-gap: 1px;
 }
 
 footer {
@@ -52,4 +56,24 @@ footer {
   color: #fff;
   background: #2978a0;
   padding: 0.25em 0;
+}
+
+.member-list {
+  background-color: #f9e9ec;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(260px, 1fr));
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.quotation {
+  text-align: center;
+}
+
+.sentence {
+  font-style: italic;
+}
+
+.author {
+  color: #DA1212;
 }
