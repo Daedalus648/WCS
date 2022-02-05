@@ -12,7 +12,22 @@
   
   <!-- Main section -->
   <main>
-    
+  
+    <div class="picture-div">
+      <div class="copyright-section1">
+      <img class="picture1" src="{{ asset('/img/greek_statue.jpg') }}" alt="Image d'une statue de la Grèce antique. © Photo by Jianxiang Wu" />
+      <p class="copyright">© Photo by Jianxiang Wu</p>
+      </div>
+      <div class="copyright-section2">
+      <img class="picture2" src="{{ asset('/img/greek_statue1.jpg') }}" alt="Image d'une statue de la Grèce antique. © Photo by Peter Ivey-Hansen" />
+      <p class="copyright">© Photo by Peter Ivey-Hansen</p>
+      </div>
+      <div class="copyright-section3">
+      <img class="picture3" src="{{ asset('/img/greek_statue2.jpg') }}" alt="Image d'une statue de la Grèce antique. © Photo by David Ramírez" />
+      <p class="copyright">© Photo by David Ramírez</p>
+      </div>
+      
+    </div>
     <!-- New member form -->
     <h2>Ajouter un(e) Argonaute</h2>
     <form class="new-member-form" action="/" method="POST">
